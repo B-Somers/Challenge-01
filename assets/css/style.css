@@ -1,7 +1,4 @@
 
-
-
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -50,9 +47,6 @@ p {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
 
 .header div ul li {
     display: inline-block;
@@ -60,7 +54,7 @@ p {
 }
 
 /* cover display background image */
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -89,7 +83,7 @@ p {
 }
 
 
-/* moves two of the content boxes to the right*/
+/* moves one of the content boxes to the right*/
 .box-image-right {
 
     float: right;
@@ -109,6 +103,20 @@ p {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* font and box color for vertical side bar box */
 .benefits {
     margin-right: 20px;
@@ -121,6 +129,20 @@ p {
     background-color: #2589bd;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,13 +201,15 @@ p {
 
 
 
-.footer {
+#footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
+
+
+
+
+
